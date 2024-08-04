@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 7500px;
+    width: 100%;
+    box-sizing: border-box;
+    background-image: url('./3457401.png');
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border-radius: 5px;
+    height: 40px;
+   
+    width: 600px;
+    font-weight: bolder;
+    font-size: 23px;
+}
+
+a {
+
+    text-decoration: none;
+    /* border: 2px solid; */
+    border-radius: 30px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#header-button {
+    position: relative;
+    bottom: 3050px;
+    height: 50px;
+    width: 180px;
+    border-radius: 20px;
+    background: red;
+    border: none;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+}
+
+#header-button:hover {
+    color: black;
+    background-color: #f19797;
+    box-shadow: 0px 0px 15px black;
+    cursor: pointer;
+}
+
+.Order-container {
+    position: absolute;
+    top: 5050px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.Orderbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    width: 250px;
+    margin-top: 20px;
+}
+
+.image {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.order-price {
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    background: red;
+    border: none;
+    font-weight: bolder;
+    font-size: 16px;
+    color: white;
+}
+
+.order-price:hover {
+    color: black;
+    background-color: #f19797;
+    box-shadow: 0px 0px 15px black;
+    cursor: pointer;
+}
+
+.search-subscribe {
+    position: absolute;
+    top: 6900px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.search-subscribe input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.subscribe-button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.subscribe-button:hover {
+    background-color: #f19797;
+}
